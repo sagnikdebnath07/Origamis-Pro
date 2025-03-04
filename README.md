@@ -103,3 +103,9 @@ This will open the application in your default web browser.
    - **Content Loading & Vector Store Creation:**
      <br>
       Uses WebBaseLoader to load web content and a recursive text splitter to process it, storing the result in a FAISS vector store.
+   - **Agent Creation & Retrieval Chain:**
+     <br>
+     Builds a custom retrieval chain using a tailored prompt and integrates with a ChatOpenAI model.
+   - **StateGraph Workflow:**
+     <br>
+     Defines and compiles a state graph workflow that processes incoming messages and returns generated responses.
