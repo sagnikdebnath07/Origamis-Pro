@@ -23,6 +23,8 @@ def main():
             if user_message.lower()=="quit" or user_message.lower()=="exit":
                 st.session_state["history"].append(("You", user_message))
                 st.session_state["history"].append(("CT", "Goodbye!"))
+                st.markdown(f"<div style='text-align: right;'><b>You:</b> {user_message}</div>", unsafe_allow_html=True)
+                st.markdown(f"<div style='text-align: left;'><b>CT:</b> Goodbye!</div>", unsafe_allow_html=True)
                 st.stop()
             app=st.session_state["app"]
             config=st.session_state["config"]
