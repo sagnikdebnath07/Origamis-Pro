@@ -31,7 +31,7 @@ This project is a Streamlit-based chatbot application that leverages retrieval-a
 
 ## Requirements
 
-- Python 3.7+
+- Python 3.11
 - [Streamlit](https://streamlit.io/)
 - [LangChain](https://github.com/hwchase17/langchain) and its dependencies:
   - langchain_core
