@@ -30,7 +30,7 @@ def createAgent(url:str):
     def format_docs(docs):
         return "\n\n".join(doc.page_content for doc in docs)
     llm=ChatOpenAI(model="gpt-4o-mini")
-    system_prompt =''' You are an assistant for question-answering tasks. Use the following pieces of retrieved context to answer the question. If you don't know the answer, just say that you don't know. Use three sentences maximum and keep the answer concise.
+    system_prompt =''' You are an assistant for question-answering tasks. Use the following pieces of retrieved context to answer the question. If answer does not require context, use your own judgement to answer. Keep the answer concise.
     Context: {context}
     Question: {question}  
     Answer:
