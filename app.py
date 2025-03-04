@@ -20,7 +20,7 @@ def main():
     def send_message():
         if st.session_state.user_input:
             user_message = st.session_state.user_input
-            if user_message=="quit" or user_message=="exit":
+            if user_message.lower()=="quit" or user_message.lower()=="exit":
                 st.session_state["history"].append(("You", user_message))
                 st.session_state["history"].append(("CT", "Goodbye!"))
                 st.stop()
