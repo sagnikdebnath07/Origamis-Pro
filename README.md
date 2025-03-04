@@ -79,7 +79,7 @@ This will open the application in your default web browser.
 - Enter the url
     - In the sidebar, provide the URL of a web page from which you want to extract context.
     - Click the Submit button to load the content.
-    - **Example**
+    - **Example:**
       - Open the chatbot interface.
       - Locate the sidebar input field labeled **"Enter your URL"**.
       - Type in a URL (e.g., `https://example.com`).
@@ -87,6 +87,11 @@ This will open the application in your default web browser.
 - Chat interaction
     - Once the chatbot is ready, type your questions in the text input field.
     - The chatbot will retrieve context from the URL and generate a concise answer.
-    - **Example**
+    - **Example:**
       - Type: `What is the main topic of this article?`
       - The chatbot will respond with a summary based on the retrieved content.
+- Exiting the Chat:
+    - To end the conversation, type "quit" or "exit".
+    - **Example:**
+      - User: `exit`
+      - Chatbot: `"Goodbye!"`
