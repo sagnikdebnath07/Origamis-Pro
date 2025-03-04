@@ -101,4 +101,5 @@ This will open the application in your default web browser.
    - Initializes the chat interface using Streamlit. Manages session state for conversation history, handles user inputs, and displays chat messages in a formatted layout.
 - **Backend(chain.py):**
    - **Content Loading & Vector Store Creation:**
+     <br>
       Uses WebBaseLoader to load web content and a recursive text splitter to process it, storing the result in a FAISS vector store.
