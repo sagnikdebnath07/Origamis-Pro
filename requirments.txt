@@ -1,0 +1,12 @@
+dotenv
+streamlit
+langchain_pinecone
+beautifulsoup4
+langgraph
+langchain
+langchain_community
+faiss_cpu
+langchain_google_genai
+langchain_core
+langchain_openai
+langchain_core
