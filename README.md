@@ -79,7 +79,9 @@ This will open the application in your default web browser.
 - Enter the url
     - In the sidebar, provide the URL of a web page from which you want to extract context.
     - Click the Submit button to load the content.
+    <br>
     **Example:**
+      
     1. Open the chatbot interface.
     2. Locate the sidebar input field labeled **"Enter your URL"**.
     3. Type in a URL (e.g., `https://example.com`).
