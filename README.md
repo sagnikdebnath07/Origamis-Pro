@@ -38,7 +38,7 @@ This project is a Streamlit-based chatbot application that leverages retrieval-a
   - langchain_openai
   - langchain_text_splitters
   - langchain_community
-  - langchain_graph
+  - langgraph
 - [FAISS](https://github.com/facebookresearch/faiss)
 - An OpenAI API key (set in Streamlit secrets)
 
