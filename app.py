@@ -14,7 +14,7 @@ def main():
             st.session_state["history"] = []
             st.session_state["app"]=app
             st.session_state["config"]=config
-            st.sidebar.write("Chatbot is ready to use.")
+            st.sidebar.success("Chatbot is ready to use.")
             
     # Function to handle message sending
     def send_message():
