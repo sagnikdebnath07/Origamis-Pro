@@ -7,13 +7,15 @@ def main():
     from chain import handle_chat, createAgent
     st.sidebar.title("Chatbot")
     st.sidebar.write("This is a chatbot that can answer questions based on a given context. You can enter url for rag here.")
-    url=st.sidebar.text_input("Enter your message:", key="url")
-    if st.sidebar.button("Submit"):
-        app,config=createAgent(url)
-        st.session_state["history"] = []
-        st.session_state["app"]=app
-        st.session_state["config"]=config
-
+    url=st.sidebar.text_input("Enter your url:", key="url")
+    with st.spinner("Loading"):
+        if st.sidebar.button("Submit"):
+            app,config=createAgent(url)
+            st.session_state["history"] = []
+            st.session_state["app"]=app
+            st.session_state["config"]=config
+            st.sidebar.write("Chatbot is ready to use.")
+            
     # Function to handle message sending
     def send_message():
         if st.session_state.user_input:
@@ -24,7 +26,8 @@ def main():
                 st.stop()
             app=st.session_state["app"]
             config=st.session_state["config"]
-            response = handle_chat(user_message,app,config)
+            with st.spinner("Generating"):
+                response = handle_chat(user_message,app,config)
             st.session_state["history"].append(("You", user_message))
             st.session_state["history"].append(("CT", response))
             st.session_state.user_input = ""
