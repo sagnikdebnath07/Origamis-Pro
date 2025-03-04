@@ -51,14 +51,25 @@ pip install -r requirements.txt
 ## Setup
 
 - Clone the repository
+  
   ```bash
   git clone <repository-url>
   cd <repository-directory>
   ```
 - Configure the api key
   Create a .streamlit/secrets.toml file (or use your environment variables) with the following content:
+  
   ```toml
   [OPENAI_API_KEY]
   OPENAI_API_KEY = "your_openai_api_key_here"
   ```
 
+## Running the application
+
+Launch the chatbot using streamlit
+
+```bash
+streamlit run app.py
+```
+
+This will open the application in your default web browser.
