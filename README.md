@@ -42,7 +42,7 @@ This project is a Streamlit-based chatbot application that leverages retrieval-a
 - [FAISS](https://github.com/facebookresearch/faiss)
 - An OpenAI API key (set in Streamlit secrets)
 
-Install the required dependencies (assuming a `requirements.txt` file is provided):
+Install the required dependencies:
 
 ```bash
 pip install -r requirements.txt
