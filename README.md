@@ -95,3 +95,7 @@ This will open the application in your default web browser.
     - **Example:**
       - User: `exit`
       - Chatbot: `"Goodbye!"`
+## Code Overview
+
+- **Frontend(app.py):**
+   Initializes the chat interface using Streamlit. Manages session state for conversation history, handles user inputs, and displays chat messages in a formatted     layout.
