@@ -81,7 +81,7 @@ This will open the application in your default web browser.
     - Click the Submit button to load the content.
     <br>
     **Example**
-    <br>
+      
     - Open the chatbot interface.
     - Locate the sidebar input field labeled **"Enter your URL"**.
     - Type in a URL (e.g., `https://example.com`).
@@ -91,6 +91,6 @@ This will open the application in your default web browser.
     - The chatbot will retrieve context from the URL and generate a concise answer.
     <br>
     **Example**
-    <br>
+      
     - Type: `What is the main topic of this article?`
     - The chatbot will respond with a summary based on the retrieved content.
