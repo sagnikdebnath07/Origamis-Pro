@@ -53,7 +53,7 @@ pip install -r requirements.txt
 - Clone the repository
   
   ```bash
-  git clone <https://github.com/sagnikdebnath07/Origamis-Pro.git>
+  git clone https://github.com/sagnikdebnath07/Origamis-Pro.git
   cd <repository-directory>
   ```
 - Configure the api key
