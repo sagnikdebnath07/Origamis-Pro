@@ -109,3 +109,5 @@ This will open the application in your default web browser.
    - **StateGraph Workflow:**
      <br>
      Defines and compiles a state graph workflow that processes incoming messages and returns generated responses.
+## Contributing
+Contributions, bug reports, and feature requests are welcome! Please open an issue or submit a pull request with improvements or ideas.
