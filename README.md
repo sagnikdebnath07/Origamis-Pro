@@ -82,7 +82,7 @@ This will open the application in your default web browser.
     <br>
     **Example:**
       
-    1. Open the chatbot interface.
-    2. Locate the sidebar input field labeled **"Enter your URL"**.
-    3. Type in a URL (e.g., `https://example.com`).
-    4. Click the **Submit** button.
+    - Open the chatbot interface.
+    - Locate the sidebar input field labeled **"Enter your URL"**.
+    - Type in a URL (e.g., `https://example.com`).
+    - Click the **Submit** button.
